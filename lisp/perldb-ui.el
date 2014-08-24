@@ -45,7 +45,7 @@
 (require 'windata)
 (require 'gud)
 ;; maybe not necessary
-(require 'gdb-ui)
+(require 'gdb-mi)
 
 (defvar perldb-version "0.01"
   "")
