@@ -45,7 +45,7 @@ sub ACTION_test {
         if ( $emacs_version =~ /2[23]/ ) {
             print "Seem everything is Ok\n";
         } elsif ($emacs_version =~ /24/) {
-            print "Emacs::PDE may not work with emacs version >24\n";
+            print "Emacs::PDE does not work with emacs version >24\n";
         }
         else {
             print "Your emacs version is too low, PDE may not work. Consider upgrade it.\n"
